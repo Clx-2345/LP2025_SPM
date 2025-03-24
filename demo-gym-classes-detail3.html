@@ -6,10 +6,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Gym | Porto </title>	
+		<title> Gym | Porto </title>	
 
-		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Porto">
+		<meta name="description" content="Porto - Multipurpose Website Template">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
@@ -116,7 +115,7 @@
 												</ul>
 											</nav>
 										</div>
-										<a class="btn btn-primary btn-join-now text-uppercase custom-font-weight-medium d-none d-lg-flex" href="demo-gym-contact-us.html">Únete Ya</a>
+										<a class="btn btn-primary btn-join-now text-uppercase custom-font-weight-medium d-none d-lg-flex" href="demo-gym-contact-us.html">Únete ahora</a>
 										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
 											<i class="fas fa-bars"></i>
 										</button>
@@ -133,59 +132,56 @@
 				<section class="section section-no-border section-light custom-padding-top-1 mb-0">
 					<div class="container">
 						<div class="row mt-4">
-							<div class="col-md-8 col-lg-9">
-								<div class="pe-4">
-									<h1 class="font-weight-bold text-color-primary mb-0">Antonio Recio</h1>
-									<h4 class="font-weight-bold text-color-quaternary">Zumba Mayorista</h4>
-									<p>Antonio Recio como monitor de Zumba sería, sin duda, una experiencia única e irrepetible. Con su actitud autoritaria y su estilo de liderazgo inquebrantable, no permitiría ni un solo paso en falso en sus clases. “Aquí se baila con disciplina o se larga a su casa”, sería su lema mientras dirige la sesión con movimientos firmes y miradas intimidantes. Nada de pasos improvisados ni ritmos suaves; en su Zumba mayorista, cada coreografía estaría marcada por una energía militar y una precisión absoluta digna de un ejército de bailarines profesionales.</p>
-									<p class="text-1">En sus clases, no hay espacio para el cansancio ni las quejas. Con frases motivadoras como “¡Aquí mando yo, y punto en boca!”, se aseguraría de que todos siguieran el ritmo sin rechistar. Sus coreografías estarían acompañadas de música escogida exclusivamente por él, sin reguetón ni ritmos modernos, sino con temas de fondo que reflejen su personalidad imponente. Y, por supuesto, siempre recordaría que su Zumba es “mayorista, no minorista”, dejando claro que sus alumnos no son simples aficionados, sino profesionales en formación.</p>
-								</div>
+							<div class="col-md-7 col-lg-9">
+								<h1 class="font-weight-bold text-color-primary mb-0">Grupo Fitness</h1>
+								<h4 class="font-weight-bold text-color-quaternary">Nustra mejor membresia</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet laoreet lorem, a imperdiet sapien tincidunt at. Vivamus sed libero ut diam feugiat sagittis sit amet in justo. Nam quis massa nec lorem tempus egestas at quis eros. Morbi non augue vel tortor feugiat commodo vitae sed dolor. Maecenas a nisi euismod, bibendum arcu quis, posuere massa. Morbi mattis dui sem. Phasellus vel rhoncus ligula.</p>
+								<p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet laoreet lorem, a imperdiet sapien tincidunt at. Vivamus sed libero ut diam feugiat sagittis sit amet in justo. Nam quis massa nec lorem tempus egestas at quis eros. Morbi non augue vel tortor feugiat commodo vitae sed dolor. Maecenas a nisi euismod, bibendum arcu quis, posuere massa. Morbi mattis dui sem. Phasellus vel rhoncus ligula.</p>
 							</div>
-							<div class="col-md-4 col-lg-3 position-relative">
-								<div class="owl-carousel custom-dots-bottom-center-1 custom-position-style-1 bg-color-primary p-3" data-plugin-options="{'items': 1, 'loop': false, 'dots': false, 'nav': false, 'autoplay': true, 'autoplayTimeout': 3000}">
-									<div>
-										<img src="image/aRe.png" alt class="img-fluid" />
-									</div>
+							<div class="col-md-5 col-lg-3">
+								<div class="custom-join-now-form custom-position-style-1 bg-color-primary p-4">
+									<h4 class="font-weight-bold text-color-light mb-0">Únete al sorteo</h4>
+									<p class="font-weight-light text-color-light text-2">Consigue una membresia grupo  <br>fitness de 2 meses GRATIS</p>
+
+									<form id="vipRequest" class="contact-form" action="php/contact-form.php" method="POST">
+										<div class="contact-form-success alert alert-success d-none mt-4" id="vipRequestSuccess">
+											<strong>¡Enhorabuena!</strong> Tus datos se han enviado correctamente.
+										</div>
+
+										<div class="contact-form-error alert alert-danger d-none mt-4" id="vipRequestError">
+											<strong>¡Error!</strong> Ha habido un error mandando tus datos.
+											<span class="mail-error-message text-1 mt-2 d-block" id="vipRequestErrorMessage"></span>
+										</div>
+
+										<input type="hidden" name="subject" value="Vip Request Received" />
+										<div class="row">
+											<div class="form-group col">
+												<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="vipRequestName" placeholder="Nombre" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="vipRequestEmail" placeholder="E-mail" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<input type="text" value="" data-msg-required="Please enter your phone." maxlength="100" class="form-control" name="phone" id="vipRequestPhone" placeholder="Número de teléfono" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col mb-0">
+												<input type="submit" value="Participa YA" class="btn btn-quaternary custom-btn-style-2 font-weight-bold" data-loading-text="Loading...">
+											</div>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section class="section section-quaternary section-text-light m-0">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<h4 class="font-weight-bold text-color-light">Aptitudes</h4>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-3">
-								<ul class="list list-icons list-light text-color-light">
-									<li><i class="fas fa-check"></i> Consultas fitness</li>
-									<li><i class="fas fa-check"></i> Profesional</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="list list-icons list-light text-color-light">
-									<li><i class="fas fa-check"></i> 1 año en la empresa</li>
-									<li><i class="fas fa-check"></i> Aplicado</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="list list-icons list-light text-color-light">
-									<li><i class="fas fa-check"></i> Cardio</li>
-									<li><i class="fas fa-check"></i> Intenso</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="list list-icons list-light text-color-light">
-									<li><i class="fas fa-check"></i> Carismatico</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
+				<br><br><br><br>
 
 				<section class="section section-center section-no-border section-light">
 					<div class="container">
@@ -221,6 +217,7 @@
 			</footer>
 
 		</div>
+
 
 		<!-- Vendor -->
 		<script src="vendor/plugins/js/plugins.min.js"></script>
